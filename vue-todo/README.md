@@ -1,24 +1,2 @@
-# vue-todo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 해당 버전은 컴포넌트간의 통신 로직은 제외되었음(input 값 추가시 리스트 컴포넌트에 실시간으로 이벤트 발생시키는 로직 없음)
+- 각자 컴포넌트 동작 프로세스 위주로 봐주세요.

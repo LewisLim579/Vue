@@ -1,7 +1,7 @@
 <!-- Header 컴포넌트는 별다른 기능없는 UI 컴포넌트 -->
 <template>
   <header>
-    <h2>샘플ToDoList 개별컴포넌트 동작 버전</h2>
+    <h1>샘플ToDoList - 리팩토링버전(컨테이너에서 데이터 조작)</h1>
   </header>
 </template>
 
