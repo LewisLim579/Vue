@@ -31,7 +31,7 @@ export default {
   methods: {
     addOneItem: function (todoItem) {
       //아이템 객체는 해당 리스트 item과 완료 여부에 대한 completed라는 속성으로 구성된다.
-      var obj = {
+      const obj = {
         //생성될때 완료여부 초기값은 false
         completed: false,
         item: todoItem,
@@ -84,7 +84,7 @@ export default {
   created: function () {
     //로컬스토리지에 데이터가 있다면 for 문 실행
     if (localStorage.length > 0) {
-      for (var i = 0; i < localStorage.length; i++) {
+      for (let i = 0; i < localStorage.length; i++) {
 
         //localStorage의 ket로 value를 가져온다. (value는 completed와 item으로 구성된 obj)
         console.log(JSON.parse(localStorage.getItem(localStorage.key(i))));
